@@ -1,0 +1,38 @@
+{
+  "cold_start_test": {
+    "model": "Popularity (7d)",
+    "users": 234,
+    "hit@10": 0.209,
+    "ci": [
+      0.158,
+      0.261
+    ]
+  },
+  "rolling_backtest_one_row_per_user": {
+    "note": "validation period only (6 Dec to 19 Dec), new items only, 301 users",
+    "hit_diff_vs_popularity": [
+      0.022,
+      -0.016,
+      0.061
+    ],
+    "ndcg_diff_vs_popularity": [
+      0.011,
+      0.002,
+      0.02
+    ],
+    "users": 301
+  },
+  "final_model": "Hybrid: CF 0.25 + SVD(n=50) 0.25 + KMeans clusters(K=8) 0.25 + Popularity(7d) 0.25; trained on real users only",
+  "split": "train < 2019-12-20 | test >= 2019-12-20 | validation 13-19 Dec",
+  "synthetic_segment_validation": {
+    "note": "DEMO ONLY: synthetic data par validation; real performance ka claim nahi.",
+    "users": 287,
+    "hit@10_new_items": 0.31,
+    "ci": [
+      0.254,
+      0.366
+    ],
+    "model": "Hybrid trained on synthetic users only (alag joblib)",
+    "ndcg@10_new_items": 0.148
+  }
+}

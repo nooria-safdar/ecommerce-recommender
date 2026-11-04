@@ -1,0 +1,5 @@
+model,users,hit_resurface,hit_DISCOVERY,disc_ci_lo,disc_ci_hi,ndcg_DISCOVERY
+"Popularity (7d, real)",161,0.236,0.161,0.106,0.217,0.04
+CF,161,0.416,0.124,0.075,0.174,0.036
+SVD n=50,161,0.429,0.112,0.068,0.161,0.02
+FINAL hybrid,161,0.453,0.199,0.137,0.261,0.052

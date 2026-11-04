@@ -1,0 +1,27 @@
+{
+  "alpha": 0.9,
+  "hybrid_plus_weights": [
+    0.6,
+    0.3,
+    0.1
+  ],
+  "K_best": 4,
+  "cluster_features": [
+    "view",
+    "cart",
+    "purchase",
+    "unique_products",
+    "avg_price",
+    "purchase_rate",
+    "active_days",
+    "recency_days"
+  ],
+  "rating_weights": {
+    "view": 1,
+    "cart": 1.5,
+    "purchase": 2,
+    "remove_from_cart": 0
+  },
+  "rating_cap": 2,
+  "synthetic_user_id_from": 990000001
+}
