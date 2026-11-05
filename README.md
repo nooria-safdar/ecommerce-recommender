@@ -32,11 +32,6 @@ The project covers the full pipeline: data cleaning and analysis, building and c
 ![Home 2](assets/home-2.png)
 ### Personalized Recommendations
 ![Recommendations](assets/recommendations.png)
-### Price Comparison
-![Price Comparison](assets/price-comparison.png)
-
-### Analytics
-![Analytics](assets/analytics.png)
 
 ## Technologies Used
 - Python, Pandas, NumPy, SciPy
