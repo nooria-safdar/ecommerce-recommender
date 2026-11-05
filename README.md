@@ -1,4 +1,4 @@
-# ShopSmart: E-Commerce Product Recommendation System
+``# ShopSmart: E-Commerce Product Recommendation System
 
 **[Live Demo](https://ecommerce-recommender-two.vercel.app)**
 
@@ -27,8 +27,9 @@ The project covers the full pipeline: data cleaning and analysis, building and c
 ## Dashboard Screenshots
 
 ### Home
-![Home](assets/home.png)
-
+### Home
+![Home 1](assets/home-1.png)
+![Home 2](assets/home-2.png)
 ### Personalized Recommendations
 ![Recommendations](assets/recommendations.png)
 
