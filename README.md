@@ -2,8 +2,7 @@
 
 **[Live Demo](https://ecommerce-recommender-two.vercel.app)**
 
-![Workflow](assets/workflow-diagram.png)
-
+![Workflow](assets/project_workflow.png)
 ## Overview
 ShopSmart is an e-commerce recommendation system that suggests products to customers based on their **browsing and purchase history** (views, add-to-cart, purchases). Customers with no history (**cold start**) get popular-product recommendations instead.
 
