@@ -1,5 +1,4 @@
-``# ShopSmart: E-Commerce Product Recommendation System
-
+# ShopSmart: E-Commerce Product Recommendation System
 **[Live Demo](https://ecommerce-recommender-two.vercel.app)**
 
 ![Workflow](assets/project_workflow.png)
